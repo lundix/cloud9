@@ -1,0 +1,23 @@
+#Lägger till allt som finns i pwd directory
+
+lundix:~/workspace (master) $ git push --all 
+
+#Add a specific file to github
+
+lundix:~/workspace (master) $ git add .
+lundix:~/workspace (master) $ git commit -m index.html
+[master ddae96a] index.html
+2 files changed, 76 insertions(+)
+create mode 100644 hello-world.html
+create mode 100644 index.html
+
+SETUP
+lundix:~/workspace $ git remote add origin git@github.com:C9Support/testPush.git 
+fatal: Not a git repository (or any of the parent directories): .git
+lundix:~/workspace $ git remote add origin https://github.com/lundix
+fatal: Not a git repository (or any of the parent directories): .git
+lundix:~/workspace $ git remote add origin https://github.com/lundix/cloud9.git
+fatal: Not a git repository (or any of the parent directories): .git
+lundix:~/workspace $ echo "# cloud9" >> README.md
+lundix:~/workspace $ git init
+Initialized empty Git repository in /home/ubuntu/workspace/.git/
